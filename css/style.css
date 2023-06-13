@@ -1,0 +1,91 @@
+body{
+    background: #3e4659;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.heading, .recipies{
+    
+    text-align: center;    
+    color: white;
+}
+.index-header{
+    background: #3e4659;
+}
+
+.recipies, .description, .directions{
+    list-style: none;
+    background: #67728a;
+    width: 60%;
+    border-radius: 0.2em;
+    border: #7a87a3 solid 1px;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.description {
+    list-style: circle;
+    color: white;
+}
+
+.directions {
+    list-style:decimal;
+    color: white;
+}
+
+.recipies li{
+    display: inline-block;
+    padding: 1rem;
+}
+.recipies a{
+    color:white;
+    text-decoration: none;
+}
+
+.recipies li img {
+    display: block;
+}
+
+.recipies li:hover{
+    background:#3e4659;
+}
+
+.nutritional{
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.desc-image{
+   display: block;
+   margin: auto;
+}
+
+.back-button{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #66de7c;
+    width: 20% ;
+    margin-top: 1rem;
+    border: #58bf6b solid 1px;
+   
+}
+
+.back-button:hover{
+    background: 
+    #8feba0;
+    cursor: pointer;
+}
+
+.back-button a{
+    text-decoration: none;
+    display: block;    
+    padding: 1rem;
+}
